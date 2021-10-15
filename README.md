@@ -30,7 +30,7 @@ Tables
 
 Apis
 
- Endpoint                      | Method | Auth? | Description
+ Endpoint                      | Method | Auth? | Description/Commands
  ----------------------------- | ------ | ----- | -----------
  `/retiro`                      | POST   | No    |  WITHDRAW.
  `/limite`                      | POST   | No   |  LIMIT ASSIGNED.
