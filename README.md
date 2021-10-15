@@ -1,6 +1,8 @@
-#  BOUNDED CONTEXT SERVICE FOR CARD OPERATIONS
+#  BOUNDED CONTEXT IMPLEMENTATIONS FOR CARD OPERATIONS
 
-Implementation for card operation service for ddd event storming excercise 
+Implementation for card operation service for ddd event storming exercise 
+
+https://spring.io/blog/2018/04/11/event-storming-and-spring-with-a-splash-of-ddd
 
 ### Pre requisitos
 
@@ -10,8 +12,6 @@ Implementation for card operation service for ddd event storming excercise
 - [H2 Database](http://www.h2database.com/html/download.html).
 
 ### Funcionamiento general
-
-https://spring.io/blog/2018/04/11/event-storming-and-spring-with-a-splash-of-ddd
 
 ![alt text](https://i.imgur.com/vBhouxJ.png)
 
