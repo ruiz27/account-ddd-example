@@ -4,21 +4,21 @@ Implementation for card operation service for ddd event storming exercise
 
 https://spring.io/blog/2018/04/11/event-storming-and-spring-with-a-splash-of-ddd
 
-### Pre requisitos
+### Pre requisites
 
 - [Spring Boot 2.5.5](https://spring.io/tools3/sts/all).
 - [Maven 3.5.2](https://maven.apache.org/download.cgi).
 - [Java 1.17.0](https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html).
 - [H2 Database](http://www.h2database.com/html/download.html).
 
-### Funcionamiento general
+### Functionaries 
 
 ![alt text](https://i.imgur.com/vBhouxJ.png)
 
 
-### Modelo de datos
+### Data
 
-A continuación mostramos los tablas utilizadas en el servicio de auditoria, llamada al microservicio responsable
+Tables
 
 
 | Table                     | Description |
@@ -28,7 +28,7 @@ A continuación mostramos los tablas utilizadas en el servicio de auditoria, lla
 
 ### Api
 
-A continuación mostramos una tabla con los endpoints disponibles del servicio. En el siguiente enlance encontraréis información detallada sobre el api [mdw-auth-bsn](https://wso2.ocs.inet/store/apis/info?name=mdw-auth-bsn&version=1.3.0&provider=admin)
+Apis
 
  Endpoint                      | Method | Auth? | Description
  ----------------------------- | ------ | ----- | -----------
@@ -38,9 +38,7 @@ A continuación mostramos una tabla con los endpoints disponibles del servicio. 
 
  
  
-### Despliegue
-
-Para un despliegue correcto en los entornos de Openshift, se deberán de configurar las siguientes variables:
+### Deployment
 
 * SPRING_PROFILES_ACTIVE    = [des, test, prod]
 * GC_MAX_METASPACE_SIZE     = 256
